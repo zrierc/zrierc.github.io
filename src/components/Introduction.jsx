@@ -9,19 +9,21 @@ const Introduction = () => {
       <TypeAnimation
         cursor={true}
         sequence={[
-          "> I'm human",
+          "> I'm Human",
           800,
-          "> I'm nerd",
+          "> I'm Nerd",
           800,
-          "> I'm dev",
+          "> I'm Observer",
           800,
-          "> I'm nothing",
+          "> I'm Dev",
           800,
-          "> I'm weeb",
+          "> I'm Nothing",
           800,
-          "> I'm tech enthusiast",
+          "> I'm Weeb",
           800,
-          "> I'm dreamer",
+          "> I'm Gamer",
+          800,
+          "> I'm Dreamer",
           800,
           "> I'm zrie",
         ]}
@@ -31,16 +33,31 @@ const Introduction = () => {
 
       <h3 className="py-5 flex flex-col text-4xl md:text-5xl font-medium text-gray-900 text-center">
         <span className="italic font-light text-lg">also known as</span>
-        <h3>Muhammad Fajri</h3>
+        Muhammad Fajri
       </h3>
 
       <p className="py-5 md:py-10 px-1 lg:px-0 max-w-screen-md text-gray-600 italic text-xl text-center">
-        Self proclaim junior Cloud Engineer / DevOps Engineer / SR-Engineer.
-        Interest in Computer and Tech. I'm still beta mode after all.
+        Self proclaim junior Cloud / DevOps / SR-Engineer. Interest in Computer
+        and Tech. I'm still beta mode after all.
       </p>
     </section>
   );
 };
 
 export default Introduction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
