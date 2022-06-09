@@ -28,7 +28,7 @@ const Introduction = () => {
           "> I'm zrie",
         ]}
         wrapper="h1"
-        className="py-3 px-1 md:px-3 my-3 bg-gray-900 shadow-sm shadow-gray-900 font-mono text-5xl md:text-7xl text-green-500 rounded"
+        className="py-3 px-1 md:px-3 my-3 bg-gray-900 shadow-sm shadow-gray-900 font-mono text-5xl md:text-7xl text-green-terminal rounded"
       />
 
       <h1 className="py-5 flex flex-col text-4xl md:text-5xl font-medium text-gray-900 text-center">
@@ -62,6 +62,7 @@ function MarkupHTML({ text }) {
 }
 
 export default Introduction;
+
 
 
 

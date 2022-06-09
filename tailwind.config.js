@@ -14,8 +14,14 @@ module.exports = {
       textDecorationThickness: {
         1.5: '1.5px',
       },
+      colors: {
+        'green-terminal': '#00ff00',
+      },
     },
   },
   plugins: [],
 };
+
+
+
 
