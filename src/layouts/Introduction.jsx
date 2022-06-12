@@ -13,17 +13,17 @@ const Introduction = () => {
           800,
           "> I'm Nerd",
           800,
+          "> I'm Weeb",
+          800,
           "> I'm Observer",
           800,
           "> I'm Dev",
           800,
-          "> I'm Nothing",
-          800,
-          "> I'm Weeb",
-          800,
           "> I'm Gamer",
           800,
           "> I'm Dreamer",
+          800,
+          "> I'm Nothing",
           800,
           "> I'm zrie",
         ]}
@@ -34,6 +34,7 @@ const Introduction = () => {
       <h1 className="py-5 flex flex-col text-4xl md:text-5xl font-medium text-gray-900 text-center">
         <span className="italic font-light text-lg">also known as</span>
         Muhammad Fajri
+        {/* {M̸̰͍̗̘̄̾̀̾u̶̡̙̓h̵̭͓̮̝̻̊͝ä̴̫͓̖̜͇́̈̒m̸͕͖̤͊͝m̶͇̭͆̔͜͠ą̵͎̲̥́̆̓́ḑ̵̦̘͛͘ ̶̧͓̬͉͍͗̍́͠F̷̢͉͘a̴͕̅̑̾j̵̧̛̦̃̑̆̑r̵̦̋͂i̷͎͍̾̌} */}
       </h1>
 
       <h3 className="py-5 md:py-10 px-1 lg:px-0 max-w-screen-md text-gray-600 italic text-xl text-center">
@@ -62,6 +63,11 @@ function MarkupHTML({ text }) {
 }
 
 export default Introduction;
+
+
+
+
+
 
 
 
