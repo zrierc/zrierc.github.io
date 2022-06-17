@@ -3,7 +3,7 @@ const LazyCard = ({ url, img, skill, desc }) => {
     <div
       className={`m-2 md:my-5 px-3 w-56 bg-white rounded-sm border border-gray-200 shadow-xs`}
     >
-      <a href={url}>
+      <a href={url} target="_blank" rel="noopener noreferrer">
         <img
           className="rounded-t-sm w-30 md:h-auto m-auto py-5"
           src={img}
@@ -24,4 +24,5 @@ const LazyCard = ({ url, img, skill, desc }) => {
 };
 
 export default LazyCard;
+
 

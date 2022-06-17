@@ -21,6 +21,8 @@ const Introduction = () => {
           800,
           "> I'm Gamer",
           800,
+          "> I'm Geek",
+          800,
           "> I'm Dreamer",
           800,
           "> I'm Nothing",
@@ -28,19 +30,19 @@ const Introduction = () => {
           "> I'm zrie",
         ]}
         wrapper="h1"
-        className="py-3 px-1 md:px-3 my-3 bg-gray-900 shadow-sm shadow-gray-900 font-mono text-5xl md:text-7xl text-green-terminal rounded"
+        className="py-3 px-1 md:px-3 my-3 bg-gray-900 shadow-sm shadow-gray-900 font-mono text-4xl md:text-7xl text-green-terminal rounded"
       />
 
-      <h1 className="py-5 flex flex-col text-4xl md:text-5xl font-medium text-gray-900 text-center">
+      <h1 className="py-5 flex flex-col text-3xl md:text-5xl font-medium text-gray-900 text-center">
         <span className="italic font-light text-lg">also known as</span>
         Muhammad Fajri
         {/* {M̸̰͍̗̘̄̾̀̾u̶̡̙̓h̵̭͓̮̝̻̊͝ä̴̫͓̖̜͇́̈̒m̸͕͖̤͊͝m̶͇̭͆̔͜͠ą̵͎̲̥́̆̓́ḑ̵̦̘͛͘ ̶̧͓̬͉͍͗̍́͠F̷̢͉͘a̴͕̅̑̾j̵̧̛̦̃̑̆̑r̵̦̋͂i̷͎͍̾̌} */}
       </h1>
 
-      <h3 className="py-5 md:py-10 px-1 lg:px-0 max-w-screen-md text-gray-600 italic text-xl text-center">
-        Student with backgound Computer Engineering who loves to learn and
-        explore something new. Familiriaze myself with Cloud Computing / DevOps.
-        I called myself as 'someone who in beta mode'.
+      <h3 className="py-5 md:py-10 px-1 lg:px-0 max-w-screen-md text-gray-600 italic text-lg md:text-xl text-center">
+        Junior dev with backgound Informatics Engineering. Familiriaze myself
+        with Cloud Computing for around one year. I called myself as 'someone
+        who in beta mode'.
         <MarkupHTML
           text={`
           I put my effort to develop and maintain blazing-fast, secure and high optimized the Environtments
@@ -63,6 +65,40 @@ function MarkupHTML({ text }) {
 }
 
 export default Introduction;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 
 
 

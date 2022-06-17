@@ -17,7 +17,7 @@ const Skills = () => {
     {
       id: 2,
       skillSet: 'Other',
-      desc: 'Git, Docker, SQL such as MySQL, MariaDB, PostgreSQL',
+      desc: 'SQL, Docker, Git, RESTful API',
     },
     {
       id: 3,
@@ -60,4 +60,5 @@ const Skills = () => {
 };
 
 export default Skills;
+
 

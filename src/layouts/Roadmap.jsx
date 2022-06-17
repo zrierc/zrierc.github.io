@@ -2,6 +2,7 @@ import aim from '../assets/icons/aim-icons8.png';
 import ansible from '../assets/icons/ansible-icons8.png';
 import bash from '../assets/icons/bash-icons8.png';
 import docker from '../assets/icons/docker-icons8.png';
+import jenkins from '../assets/icons/jenkins-icons8.png';
 import more from '../assets/icons/more-icons8.png';
 import node from '../assets/icons/nodejs-icons8.png';
 import LazyCard from '../components/LazyCard';
@@ -18,7 +19,7 @@ const Roadmap = () => {
       url: 'https://nodejs.org/',
       img: node,
       skill: 'JavaScript/NodeJS',
-      desc: 'Still wondering why <a href="https://stackoverflow.com/questions/1565164/what-is-the-rationale-for-all-comparisons-returning-false-for-ieee754-nan-values"><code class="p-1 bg-gray-50 rounded-md shadow-sm border border-gray-200 ">NaN === NaN</code> <span class="underline">equals <code>false</code></span></a>',
+      desc: 'Still wondering why <a href="https://stackoverflow.com/questions/1565164/what-is-the-rationale-for-all-comparisons-returning-false-for-ieee754-nan-values"          target="_blank" rel="noopener noreferrer"><code class="p-1 bg-gray-50 rounded-md shadow-sm border border-gray-200 ">NaN === NaN</code> <span class="underline">equals <code>false</code></span></a>',
     },
     {
       id: 1,
@@ -36,20 +37,27 @@ const Roadmap = () => {
     },
     {
       id: 3,
+      url: 'https://www.jenkins.io/',
+      img: jenkins,
+      skill: 'Jenkins',
+      desc: 'CI / CD Pipelines',
+    },
+    {
+      id: 4,
       url: 'https://www.docker.com/',
       img: docker,
       skill: 'Docker',
       desc: 'Containerizing app(s)',
     },
     {
-      id: 4,
+      id: 5,
       url: '#404myAimNotFound',
       img: aim,
       skill: 'Aim at FPS Games',
       desc: "I'm sucks at common fps games like Apex Legends, Valorant, etc",
     },
     {
-      id: 5,
+      id: 6,
       img: more,
       skill: 'Many More',
       desc: "There's always more to learn...",
@@ -85,4 +93,10 @@ const Roadmap = () => {
 };
 
 export default Roadmap;
+
+
+
+
+
+
 
