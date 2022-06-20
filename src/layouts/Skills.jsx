@@ -16,13 +16,13 @@ const Skills = () => {
     },
     {
       id: 2,
-      skillSet: 'Other',
-      desc: 'SQL, Docker, Git, RESTful API',
+      skillSet: 'Ops Tools',
+      desc: 'Git, Docker',
     },
     {
       id: 3,
-      skillSet: 'TBA',
-      desc: 'TBA',
+      skillSet: 'Other',
+      desc: 'SQL, RESTful API',
     },
   ];
 
@@ -33,7 +33,7 @@ const Skills = () => {
     >
       <div className="max-w-screen-lg mx-auto">
         <h2 className="mb-10 px-3 text-3xl md:text-3xl font-medium text-gray-900">
-          I'm familiar with..
+          Some of my Skills
         </h2>
 
         <div className="max-w-screen-lg grid md:grid-cols-2 gap-x-5">
@@ -60,5 +60,11 @@ const Skills = () => {
 };
 
 export default Skills;
+
+
+
+
+
+
 
 

@@ -15,7 +15,7 @@ const Footer = () => {
           </a>
         </h2>
 
-        <h4 className="mb-2 px-1 md:text-lg text-base text-gray-600">
+        <h4 className="mb-2 px-1 md:text-lg text-base text-gray-600 md:max-w-lg">
           Find me in another digital realm
         </h4>
 
@@ -47,7 +47,7 @@ const Footer = () => {
 
       <div className="py-5 text-gray-900">
         <p className="text-center">
-          Made with 🤍 by z̵͎̫͎̍̃͘͘r̷̬̦̾͋̾̈͋͘͜ị̷̖̙͓̹̘̝̪̳̑͂̒͊̆͆͂̾̏͘͜ͅͅe̵̢̛̠̬͖̹̥͇̠̳̋͐̈́̂͂̀͌͌͋̄͠. Cool icons by{' '}
+          Made with 🤍 by zrie. Cool icons by{' '}
           <a
             className="underline"
             href="https://icons8.com"
@@ -63,4 +63,29 @@ const Footer = () => {
 };
 
 export default Footer;
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
 

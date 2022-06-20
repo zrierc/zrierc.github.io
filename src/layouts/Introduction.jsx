@@ -40,9 +40,9 @@ const Introduction = () => {
       </h1>
 
       <h3 className="py-5 md:py-10 px-1 lg:px-0 max-w-screen-md text-gray-600 italic text-lg md:text-xl text-center">
-        Junior dev with backgound Informatics Engineering. Familiriaze myself
-        with Cloud Computing for around one year. I called myself as 'someone
-        who in beta mode'.
+        Junior dev with backgound Informatics Engineering from Indonesia.
+        Familiar with Cloud Computing for around a year. I called myself as
+        'someone who in beta mode'.
         <MarkupHTML
           text={`
           I put my effort to develop and maintain blazing-fast, secure and high optimized the Environtments
@@ -65,6 +65,9 @@ function MarkupHTML({ text }) {
 }
 
 export default Introduction;
+
+
+
 
 
 
