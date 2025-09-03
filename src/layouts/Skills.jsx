@@ -1,28 +1,28 @@
-import SkillCard from '../components/SkillCard';
+import SkillCard from "../components/SkillCard";
 
 const Skills = () => {
   const listOfSkills = [
     {
       id: 0,
-      skillSet: 'Programming',
-      desc: 'Javascript and Bash Script, sometimes using NodeJS and React',
+      skillSet: "Languange",
+      desc: "TypeScript/JavaScript (NodeJS), Python, Bash/Shell, SQL",
       bot: false,
     },
     {
       id: 1,
-      skillSet: 'Public Cloud',
-      desc: 'Experience in Amazon Web Services (AWS) and little bit Google Cloud Platform',
+      skillSet: "Cloud / DevOps Stuff",
+      desc: "Amazon Web Service (AWS), Github, Containerization with Docker, CI / CD using Github Actions",
       bot: false,
     },
     {
       id: 2,
-      skillSet: 'Ops Tools',
-      desc: 'Git, Docker',
+      skillSet: "Infrastructure as Code (IAC)",
+      desc: "Terraform, AWS Cloud Development Kit (CDK)",
     },
     {
       id: 3,
-      skillSet: 'Other',
-      desc: 'SQL, RESTful API',
+      skillSet: "Dev Tools",
+      desc: "Linux, Vim, Git, etc",
     },
   ];
 
@@ -60,11 +60,3 @@ const Skills = () => {
 };
 
 export default Skills;
-
-
-
-
-
-
-
-

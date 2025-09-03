@@ -14,29 +14,29 @@ const Projects = () => {
       <div className="max-w-screen-lg text-gray-900 flex flex-col">
         {/* Experience 1 */}
         <div className="text-gray-900 mb-5 px-1">
-          <h6 className="text-lg font-semibold">Deploying Exam App on AWS</h6>
+          <h6 className="text-lg font-semibold">
+            Build, Automate, and Provision Cloud Infrastructure on AWS{" "}
+          </h6>
           <h6 className="pb-2 text-lg font-medium italic">
-            Javascript-based microservices app fully hosted on AWS
+            Cloud Infrastructure Engineer
           </h6>
           <ul className="list-disc list-inside md:list-outside px-1 md:pl-8 leading-relaxed">
             <li>
-              Create, and manage cloud infrastructure such as VPC, Database
-              Services, Load Balancer and Auto Scaling
+              Experienced in the end-to-end management of AWS cloud
+              environments. Responsible for monitoring system health, managing
+              security policies, performing routine maintenance, and ensuring
+              high availability and reliability of core services like EC2, S3,
+              RDS, and IAM.
             </li>
             <li>
-              Setting up relational database services using Amazon Aurora,
-              No-SQL Database using DocumentDB with MongoDB Compatibility, and
-              in-memory cache database using ElastiCache for Redis
+              Provisioning and managing scalable, secure, and resilient cloud
+              infrastructure and network architectures on AWS. Leveraged
+              Infrastructure as Code (IaC) principles using the AWS Cloud
+              Development Kit (CDK)
             </li>
             <li>
-              Deploying three services such as client services that using VueJS
-              as front-end library, backend services and API services using
-              Express as Framework
-            </li>
-            <li>
-              Implement security best practice for App & infrastructure like
-              setting up Firewall/Security Group, Network ACL, implement
-              principle of least privilege using IAM role
+              Help to implemented, and maintained robust, automated CI/CD
+              pipelines for diverse web applications
             </li>
           </ul>
         </div>
@@ -44,30 +44,28 @@ const Projects = () => {
         {/* Experience 2 */}
         <div className="text-gray-900 mb-5 px-1">
           <h6 className="text-lg font-semibold">
-            Deploying Blog website on AWS
+            Introducing Cloud Computing to vocational school students
           </h6>
           <h6 className="pb-2 text-lg font-medium italic">
-            Laravel-based blog website fully hosted on AWS
+            Mentor / Bootcamp instructor
           </h6>
           <ul className="list-disc list-inside md:list-outside px-1 md:pl-8 leading-relaxed">
             <li>
-              Create, and manage cloud infrastructure such as VPC, Amazon
-              Aurora, ElastiCache for Redis, AWS S3, EFS, DynamoDB, and setup
-              DNS using Amazon Route 53
-            </li>
-            <li>Deploy a monolith laravel App</li>
-            <li>
-              Create automatic script for setting up PHP runtime, Laravel App
-              and web server
+              Provided personalized one-on-one mentoring and conducted focused,
+              hands-on workshops on modern cloud architectures. Specialized in
+              Serverless computing, guiding participants through building,
+              deploying, and optimizing applications using AWS Lambda.
             </li>
             <li>
-              Implement High Availability & scalability using Application Load
-              Balancer and EC2 Auto Scaling also all services hosted on multiple
-              Avaiablity Zone
+              Led intensive, week-long to month-long cloud computing bootcamps
+              for vocational school students.
             </li>
             <li>
-              Implement security best practice for App & infrastructure like
-              setting up Firewall/Security Group, VPC Subnetting
+              Developed and delivered a hands-on curriculum covering
+              foundational and intermediate topics, including Core Cloud
+              Concepts with AWS, Infrastructure as Code (IaC) using Terraform,
+              Containerization with Docker, CI/CD Automation using GitHub
+              Actions, and many more.
             </li>
           </ul>
         </div>
@@ -84,4 +82,3 @@ const Projects = () => {
 };
 
 export default Projects;
-

@@ -1,4 +1,4 @@
-import TypeAnimation from 'react-type-animation';
+import TypeAnimation from "react-type-animation";
 
 const Introduction = () => {
   return (
@@ -18,6 +18,8 @@ const Introduction = () => {
           "> I'm Observer",
           800,
           "> I'm Dev",
+          800,
+          "> I'm Experimentalist",
           800,
           "> I'm Gamer",
           800,
@@ -40,16 +42,10 @@ const Introduction = () => {
       </h1>
 
       <h3 className="py-5 md:py-10 px-1 lg:px-0 max-w-screen-md text-gray-600 italic text-lg md:text-xl text-center">
-        Junior dev with backgound Informatics Engineering from Indonesia.
-        Familiar with Cloud Computing for around a year. I called myself as
-        'someone who in beta mode'.
-        <MarkupHTML
-          text={`
-          I put my effort to develop and maintain blazing-fast, secure and high optimized the Environtments
-          <br />
-          P.S yes I always try to do everything that I tell before, but idk I can't show it. At least not yet, not this time. cuz I'm still beta mode after all.
-            `}
-        />
+        (Cloud) Infrastructure Engineer / DevOps with 1y+ experience.
+        <br /> Spend most of my time in the sandbox and dev environment doing
+        research and learning new things.
+        <MarkupHTML text={`nice one.`} />
       </h3>
     </section>
   );
@@ -65,131 +61,3 @@ function MarkupHTML({ text }) {
 }
 
 export default Introduction;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
