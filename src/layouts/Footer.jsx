@@ -9,14 +9,14 @@ const Footer = () => {
         <h2 className="mb-4 px-1 text-3xl md:text-4xl font-medium text-gray-900">
           <a
             className="after:content-['_↗'] hover:underline active:underline hover:transition hover:ease-in"
-            href="mailto:info@zrie.me"
+            href="mailto:halo-fajri.filing478@slmail.me"
           >
             info@zrie.me
           </a>
         </h2>
 
         <h4 className="mb-2 px-1 md:text-lg text-base text-gray-600 md:max-w-lg">
-          Find me in another digital realm
+          Find me in another world
         </h4>
 
         <div className=" px-1 flex flex-row text-lg md:text-2xl font-medium text-gray-900">
@@ -38,7 +38,7 @@ const Footer = () => {
           </a>
           <a
             className="mx-2 after:content-['_↗'] hover:underline"
-            href="https://zrie.me"
+            href="https://zrierc.github.io/"
           >
             Website
           </a>
@@ -47,7 +47,7 @@ const Footer = () => {
 
       <div className="py-5 text-gray-900">
         <p className="text-center">
-          Made with 🤍 by zrie. Cool icons by{' '}
+          Made with 🤍 by zrie. Cool icons by{" "}
           <a
             className="underline"
             href="https://icons8.com"
@@ -63,29 +63,3 @@ const Footer = () => {
 };
 
 export default Footer;
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
-
